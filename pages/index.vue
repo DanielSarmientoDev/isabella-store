@@ -3,9 +3,8 @@
 </template>
 
 <script>
-import Vue from 'vue'
 import { CATEGORIES } from '~/graphql/queries'
-export default Vue.extend({
+export default {
   apollo: {
     categories: {
       query: CATEGORIES,
@@ -14,7 +13,7 @@ export default Vue.extend({
       },
     },
   },
-})
+}
 </script>
 
 <style></style>
