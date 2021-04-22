@@ -15,6 +15,10 @@ module.exports = {
   },
   theme: {
     extend: {
+      transitionDelay: {
+        0: '0ms',
+        2000: '2000ms',
+      },
       fontFamily: {
         serif: ['Airbnb Cereal App', ...defaultTheme.fontFamily.serif],
       },
@@ -37,7 +41,8 @@ module.exports = {
         'san-juan': '#2D4E60',
         'aqua-haze': '#F8FAFB',
         nepal: '#9DB5C2',
-        primary: '#00d0eb',
+        primary: '#db2777',
+        secondary: '#9d174d',
         'citix-gray': '#808080',
         'athens-gray': '#F5F7F9',
         'athens-gray-dark': '#EEF2F4',
